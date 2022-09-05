@@ -1,0 +1,154 @@
+h1{
+    color: orange;
+    font-size: 4em;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.not{
+    text-decoration: underline;
+}
+
+.log{
+    font-size: 4em;
+    color: whitesmoke;
+    width: auto;
+    
+}
+
+/* buttons */
+.butt{
+    margin: 1em;
+    padding: 4em 3em ;
+    color: aliceblue;
+    font-size: 2em;
+    float:inline-end;
+}
+
+.buttOn{
+    margin: 1em;
+    padding: 3em 3em ;
+    color: aliceblue;
+    font-size: 2em;
+    float:inline-end;
+}
+
+.leButt{
+    margin: 1em;
+    padding: 3em 3em ;
+    color: aliceblue;
+    font-size: 2em;
+    float:inline-end;
+}
+
+/* Burgers */
+.cheeburger{
+    background-image: url(images/cheesebur.jpg);
+    background-size: contain;
+}
+
+.burger{
+    background-image: url(images/burger.jpg);
+    background-size: cover;
+}
+
+.waffle{
+    background-image: url(images/waffle.jpg);
+    background-size: cover;
+}
+
+/* Drinks */
+.drink{
+    background-image: url(images/drink.jpg);
+    background-size: cover;
+    color: red
+
+}
+
+.coke {
+    background-image: url(images/drink.jpg);
+    background-size: cover;
+    color: red
+}
+
+.coke_zero {
+    background-image: url(images/coke_zero.jpg);
+    background-size: cover;
+    color: darkred
+}
+
+.diet_coke {
+    background-image: url(images/diet_coke.jpg);
+    background-size: cover;
+    color: darkslategrey
+}
+
+.sprite {
+    background-image: url(images/sprite.jpg);
+    background-size: cover;
+    color: green
+}
+
+/* Fries */
+.fries{
+    background-image: url(images/freedomfries.jpg);
+    background-size: cover;
+}
+
+.small{
+    background-image: url(images/frizz.jpg);
+    background-size: cover;
+}
+
+.medium{
+    background-image: url(images/medium.jpg);
+    background-size: cover;
+}
+
+/* LOGIN */
+.login{
+    
+    background-size: cover;
+    background-image: url("istockphoto-959839190-612x612burger.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+}
+
+.login .McRonalds{
+    font-size: 70px;
+    color: yellow;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.todoBackg{
+    background-image: url(images/bubbles.jpg);
+    background-size: cover;
+}
+
+/* styles */
+.outline{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+      
+}
+
+.big{
+    font: 2em;
+}
+
+.topBit{
+    border: 1px black solid;
+    background-color: black;
+    opacity: 0.5;
+    width: auto;
+    color: whitesmoke
+}
